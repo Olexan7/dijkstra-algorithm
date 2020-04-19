@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Алгоритм Дейкстры</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <label class="count-lable" for="count">Количество вершин: </label>
+      <input class="count-input" id="count" type="text" value="5" />
+      <input class="count-button" type="button" value="Построить таблицу" />
+      <input class="random-button" type="button" value="Случайные значения" />
+      <input class="examlpe-button" type="button" value="Пример с habr.com" />
+
+      <div class="table-container"></div>
+
+      <label class="vertex-label hide" for="vertex">
+        Выберите в качестве источника вершину:
+      </label>
+      <select class="sourse-vertex hide" id="vertex"> </select>
+      <input class="calc-button hide" type="button" value="Вычислить" />
+
+      <div class="answer"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
